@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+
+# Python virtual environment
+backend/.venv/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and test cache
+*.log
+.pytest_cache/
+
+# Generated build files
+build/
+dist/
+
+# Local database and personal data
+*.db
+*.sqlite3
+attendance_records/
+face_data/
+known_faces/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/
